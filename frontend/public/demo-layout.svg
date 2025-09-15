@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="100%" height="100%" fill="#fff"/>
+  <g transform="translate(80,60)" fill="#e6f2ff" stroke="#0369a1">
+    <rect data-plot-id="P-101" x="0" y="0" width="200" height="120" />
+    <rect data-plot-id="P-102" x="210" y="0" width="200" height="120" />
+    <rect data-plot-id="P-103" x="0" y="130" width="200" height="120" />
+    <rect data-plot-id="P-104" x="210" y="130" width="200" height="120" />
+  </g>
+  <style>
+    rect { cursor: pointer; transition: fill-opacity 120ms, stroke 120ms; }
+    rect:hover { fill-opacity: 0.9; stroke-width:3; }
+  </style>
+</svg>
